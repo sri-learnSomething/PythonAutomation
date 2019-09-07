@@ -1,0 +1,12 @@
+Basic authentication
+==================================
+Adding authentication data
+Send request with authentication
+
+
+oAuth authentication
+==================================
+Send request and generate authentication token
+Get this token and store in variable
+Pass this token as a header in other requests
+

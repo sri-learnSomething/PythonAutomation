@@ -1,0 +1,4 @@
+from selenium.webdriver impoer Chrome
+path = <Path of the chromedriver / webdriver exe>
+drover = Chrome(executable_path=path)
+driver.get("http://www.thetestingworld.com/testing")

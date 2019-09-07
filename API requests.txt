@@ -1,0 +1,55 @@
+=========================
+REST API Request methods
+=========================
+GET     :   Retrieving data from the server
+POST    :   Whenever we add new data
+PUT     :   Whenever we want to update the data
+DELETE  :   Whenever we want to delete a resource from the server
+PATCH   :   When we want to send only a selected updates, but no need to send data which do not want to
+
+HEAD    :   When we want to check only headers
+OPTIONS :   What are all the methods we can use on particular API
+TRACE   :   Whatever we sent to server, in response we get same header and same body (requested to server) and it is used for debugging purpose
+
+======================
+API Request parameters
+======================
+URI + parameters
+
+===============================
+following modules are required:
+requests, json, jsonpath
+===============================
+
+=============
+POST - Create
+=============
+Read input json from a file
+Parse it in to json format
+Hit POST request
+Parse the response in to json format
+Validate the response
+
+===============
+PUT - Update
+===============
+Read input json from a file
+Parse it in to json format
+Hit PUT request
+Parse the response in to json format
+Validate the response
+
+===================
+Customized Headers
+===================
+Create dictionary of request Headers
+Send headers with Request
+http://httpbin.org/get
+
+==========================
+Requesting with Parameters
+==========================
+What is Parameters
+Create dictionary of Parameters
+Send parameters with Request
+

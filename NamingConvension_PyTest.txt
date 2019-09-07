@@ -1,0 +1,14 @@
+===========================================
+Naming conventions in PyTest
+===========================================
+
+1. Test case file name should starts with 'test'
+2. Test case method name should starts with 'test'
+3. Change file name or test name
+4. Execute testcases using' pytest'
+
+====================
+Request chaining
+====================
+whenever requesting server to get some response, using it we are going to send another request to server to get other response
+
